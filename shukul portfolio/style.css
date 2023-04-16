@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+body {
+  font-family: "Sedgwick Ave Display", cursive;
+  background-color: rgba(0, 0, 0, 0.975);
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  font-size: 1.7rem;
+}
+nav ul li {
+  list-style: none;
+}
