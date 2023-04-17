@@ -124,12 +124,13 @@ li:hover {
 .content-section .title {
   text-transform: uppercases;
   font-size: 28px;
-  text-decoration: underline rgb(50, 229, 190);
+  /* text-decoration: underline rgb(50, 229, 190); */
 }
 .content-section .content h3 {
   margin-top: 20px;
   color: #5d5d5d;
   font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .content-section .content p {
   margin-top: 10px;
