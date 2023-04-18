@@ -13,3 +13,7 @@ document.querySelectorAll(".nav-links").forEach((e) =>
     navLinks.classList.remove("active");
   })
 );
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+  loader.classList.add("loader-hidden");
+});
