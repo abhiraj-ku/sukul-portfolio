@@ -484,7 +484,7 @@ textarea {
 
   .contact-box {
     grid-template-columns: 2fr;
-    min-width: 400px;
+    min-width: 350px;
   }
   .left {
     height: 400px;
