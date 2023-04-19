@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="lightbox.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Rohit Sukul</title>
   </head>
@@ -67,14 +68,56 @@
       </div>
     </div>
     <div class="hero">
-      <h2 class="section-heading">My Services</h2>
+      <h2 class="hero-heading">My Work</h2>
       <div class="gallery">
-        <img src="assets/be.jpg" />
-        <img src="assets/dr.jpg" />
+        <a
+          href="assets/be.jpg"
+          data-lightbox="sketches"
+          data-title="billie elish"
+          ><img src="assets/be.jpg"
+        /></a>
+        <a
+          href="assets/vk.jpg"
+          data-lightbox="sketches"
+          data-title="Virat Kohli"
+          ><img src="assets/vk.jpg"
+        /></a>
+        <a
+          href="assets/dr.jpg"
+          data-lightbox="sketches"
+          data-title="Darshan Raval"
+          ><img src="assets/dr.jpg"
+        /></a>
+        <a
+          href="assets/lm.jpg"
+          data-lightbox="sketches"
+          data-title="Lionel Messi"
+          ><img src="assets/lm.jpg"
+        /></a>
+        <a
+          href="assets/poc.jpg"
+          data-lightbox="sketches"
+          data-title="Captain Jack Sparrow"
+          ><img src="assets/poc.jpg"
+        /></a>
+        <a
+          href="assets/kiss-me.jpg"
+          data-lightbox="sketches"
+          data-title="Couple sketch"
+          ><img src="assets/kiss-me.jpg"
+        /></a>
+        <!-- <a
+          href="assets/be.jpg"
+          data-lightbox="sketches"
+          data-title="billie elish"
+          ><img src="assets/be.jpg"
+        /></a> -->
+
+        <!-- <img src="assets/dr.jpg" />
         <img src="assets/vk.jpg" />
         <img src="assets/lm.jpg" />
         <img src="assets/poc.jpg" />
-        <img src="assets/kiss-me.jpg" />
+        <img src="assets/kiss-me.jpg" /> -->
       </div>
     </div>
     <section>
@@ -124,6 +167,7 @@
         </div>
       </div>
     </section>
+    <script src="lightbox-plus-jquery.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
