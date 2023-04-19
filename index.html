@@ -11,7 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="lightbox.css" />
+    <!-- <link rel="stylesheet" href="lightbox.css" /> -->
     <link rel="stylesheet" href="style.css" />
     <title>Rohit Sukul</title>
   </head>
@@ -25,8 +25,9 @@
         </div>
         <ul class="nav-links">
           <li class="nav-items"><a href="#">About</a></li>
-          <li class="nav-items"><a href="#">Services</a></li>
-          <li class="nav-items"><a href="#">Work</a></li>
+          <li class="nav-items"><a href="#services">Services</a></li>
+          <li class="nav-items"><a href="#work">Work</a></li>
+          <li class="nav-items"><a href="#contact">Contact</a></li>
         </ul>
         <div class="Hamburger">
           <span class="bar"></span>
@@ -40,15 +41,16 @@
       <div class="container">
         <div class="content-section">
           <div class="title">
-            <h1>Who Am I ?</h1>
+            <!-- <h2>Who Am I</h2> -->
           </div>
           <div class="content">
             <h3>Artist.</h3>
             <p>
-              Myself <span class="my-name">Rohit Sukul</span>, a sketch artist,
-              I like to sketch portrait, doddle art, charcoal sketch.. It's my
-              passion.. And I like to create something different on my realistic
-               sketchs..
+              My name is <span class="my-name">Rohit Sukul,</span> Rohit Sukul,
+              and I am a passionate sketch artist who specializes in creating
+              stunning portraits, unique doodle art, and intricate charcoal
+              sketches. I have a deep love for my craft, and I take great pride
+              in producing exceptional artwork.
             </p>
             <!-- <div class="button">
               <a href="">Read more</a>
@@ -67,7 +69,7 @@
         </div>
       </div>
     </div>
-    <div class="hero">
+    <div class="hero" id="work">
       <h2 class="hero-heading">My Work</h2>
       <div class="gallery">
         <a
@@ -106,21 +108,9 @@
           data-title="Couple sketch"
           ><img src="assets/kiss-me.jpg"
         /></a>
-        <!-- <a
-          href="assets/be.jpg"
-          data-lightbox="sketches"
-          data-title="billie elish"
-          ><img src="assets/be.jpg"
-        /></a> -->
-
-        <!-- <img src="assets/dr.jpg" />
-        <img src="assets/vk.jpg" />
-        <img src="assets/lm.jpg" />
-        <img src="assets/poc.jpg" />
-        <img src="assets/kiss-me.jpg" /> -->
       </div>
     </div>
-    <section>
+    <section id="services">
       <div class="row">
         <h2 class="section-heading">My Services</h2>
         <img src="assets/icons8-services-48.png" alt="" class="service-img" />
@@ -132,9 +122,9 @@
               <img src="assets/police.png" alt="" width="60px" />
             </div>
             <h3>Portrait</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+            <p class="wel-text">
+              Let me turn your precious moments into lifelong treasures that you
+              can cherish for generations to come
             </p>
             <h3>Price: ₹500-3000</h3>
           </div>
@@ -145,29 +135,30 @@
               <img src="assets/icons8-dailyart-48.png" alt="" />
             </div>
             <h3>Doodle Art</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
-            </p>
-            <h3>Price: ₹500-3000</h3>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="icon-wrapper">
-              <img src="assets/police.png" alt="" width="60px" />
-            </div>
-            <h3>Service Heading</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+            <p class="wel-text">
+              Whether it's for personal use or business, my doodles are sure to
+              brighten up any space and add a touch of fun to your day.
             </p>
             <h3>Price: ₹500-3000</h3>
           </div>
         </div>
       </div>
     </section>
-    <script src="lightbox-plus-jquery.js"></script>
+    <!-- <h3>Contact Me</h3> -->
+    <div class="contact-container">
+      <div class="contact-box" id="contact">
+        <div class="left"></div>
+        <div class="right">
+          <h2 style="color: black">contact me</h2>
+          <input type="text" class="field" placeholder="Your Name" />
+          <input type="text" class="field" placeholder="Your Email" />
+          <input type="text" class="field" placeholder="Phone" />
+          <textarea placeholder="Message" class="field"></textarea>
+          <button class="btn">Send</button>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="lightbox-plus-jquery.js"></script> -->
     <script src="script.js"></script>
   </body>
 </html>
