@@ -149,16 +149,35 @@
       <div class="contact-box" id="contact">
         <div class="left"></div>
         <div class="right">
-          <h2 style="color: black">contact me</h2>
-          <input type="text" class="field" placeholder="Your Name" />
-          <input type="text" class="field" placeholder="Your Email" />
-          <input type="text" class="field" placeholder="Phone" />
-          <textarea placeholder="Message" class="field"></textarea>
-          <button class="btn">Send</button>
+          <form onsubmit="sendEmail(), reset(); return false;">
+            <h2 style="color: black">contact me</h2>
+            <input
+              type="text"
+              class="field"
+              id="name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              class="field"
+              id="email"
+              placeholder="Your Email"
+              required
+            />
+            <!-- <input type="text" class="field" placeholder="Phone" required /> -->
+            <textarea
+              placeholder="Message"
+              class="field"
+              id="message"
+            ></textarea>
+            <button class="btn">Send</button>
+          </form>
         </div>
       </div>
     </div>
     <!-- <script src="lightbox-plus-jquery.js"></script> -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

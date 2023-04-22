@@ -17,3 +17,22 @@ window.addEventListener("load", () => {
   const loader = document.querySelector(".loader");
   loader.classList.add("loader-hidden");
 });
+
+function sendEmail() {
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "jagdishbose456@gmail.com",
+    Password: "E5CC009EAC32566A3F76F6CF4878F2F24767",
+    Port: 2525,
+    To: "abhirajabhi312@gmail.com",
+    From: document.getElementById("email").value,
+    Subject: "New Enquiry for Project",
+    Body:
+      "Name: " +
+      document.getElementById("name").value +
+      "<br> Email:" +
+      document.getElementById("email").value +
+      "<br> message:" +
+      document.getElementById("message").value,
+  }).then((message) => alert(message));
+}
