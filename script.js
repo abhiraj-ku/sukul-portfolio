@@ -20,9 +20,9 @@ window.addEventListener("load", () => {
 
 function sendEmail() {
   Email.send({
-    Host: "smtp.elasticemail.com",
+    Host: "smtp.gmail.com",
     Username: "jagdishbose456@gmail.com",
-    Password: "E5CC009EAC32566A3F76F6CF4878F2F24767",
+    Password: "aktk123",
     Port: 2525,
     To: "abhirajabhi312@gmail.com",
     From: document.getElementById("email").value,
